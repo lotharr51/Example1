@@ -1,0 +1,14 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebFormsExample.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <form runat="server">
+    <div id="body">
+        <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+        
+    </div>
+    </form>
+</body>
+</html>
